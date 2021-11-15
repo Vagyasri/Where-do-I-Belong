@@ -1,4 +1,5 @@
 # Where do I Belong
+In this Project, I have created a function that will return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
 
 ## Built With
 
