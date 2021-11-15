@@ -23,6 +23,10 @@ import './style.css';
   return arr.length;
 } */
 
+/* function getIndexToIns(arr, num) {
+  return arr.filter(val => num > val).length;
+} */
+
 function getIndexToIns(arr, num) {
   return arr
     .concat(num)
