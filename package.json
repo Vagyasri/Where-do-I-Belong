@@ -1,7 +1,7 @@
 {
   "name": "where-do-i-belong",
   "version": "1.0.0",
-  "description": "In this project, we are creating a website consisting of Recipes from around the world. We are using a Kanban board for practice purposes and we have used an external API.s",
+  "description": "In this Project, I have created a function that will return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.",
   "private": true,
   "scripts": {
     "test": "jest",
