@@ -1,9 +1,6 @@
 import './style.css';
 
 function getIndexToIns(arr, num) {
-  if (arr.length === 0) {
-    return 0;
-  }
   for (let i = 0; i < arr.length; i += 1) {
     arr.sort((a, b) => a - b);
     if (num <= arr[i]) {
@@ -13,6 +10,7 @@ function getIndexToIns(arr, num) {
       return arr.length;
     }
   }
+  return 0;
 }
 
 console.log(getIndexToIns([10, 20, 30, 40, 50], 35)); // 3
